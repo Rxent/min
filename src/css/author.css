@@ -1,0 +1,46 @@
+.top-nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+}
+.top-nav div {
+  font-size: 32px;
+}
+.top-nav div:first-child {
+  margin: 8px 8px 0px auto;
+}
+.top-nav div:last-child {
+  margin: 8px auto 0px 8px;
+}
+.top-nav a {
+  text-decoration: none;
+  color: blue;
+}
+.top-nav a:hover {
+  color: chartreuse;
+}
+.cur a {
+  font-size: 36px;
+  color: aqua;
+}
+.position {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  height: fit-content;
+  background-color: aquamarine;
+}
+.position img {
+  width: 100%;
+}
+.position div {
+  margin-top: -40px;
+}
+
+.gd {
+  height: 2000px;
+  width: 30px;
+  background-color: rgb(107, 130, 235);
+}
